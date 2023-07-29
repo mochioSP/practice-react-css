@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import { CssModules } from "./components/CssModules";
+import { Emotion } from "./components/Emotiom";
+import { InlineStyle } from "./components/InlineStyle";
+import { StyledComponents } from "./components/StyledComponents";
+import { StyledJSX } from "./components/StyledJSX";
+import "./styles.css";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <InlineStyle />
+      <CssModules />
+      <StyledJSX />
+      <StyledComponents />
+      <Emotion />
     </div>
   );
 }
-
-export default App;
