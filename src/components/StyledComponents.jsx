@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const StyledComponents = () => {
   return (
     <SContainer>
-      <STitle>- Styled Components -</STitle>
+      <STitle>-  Styled Components  -</STitle>
       <SButton>FIGHT!!!</SButton>
     </SContainer>
   );

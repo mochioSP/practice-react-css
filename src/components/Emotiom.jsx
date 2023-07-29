@@ -18,7 +18,7 @@ export const Emotion = () => {
   });
   return (
     <div css={containerStyle}>
-      <p css={titleStyle}>- Emotion -</p>
+      <p css={titleStyle}>-  Emotion  -</p>
       <SButton>FIGHT!!!</SButton>
     </div>
   );

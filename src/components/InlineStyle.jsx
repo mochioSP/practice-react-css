@@ -21,7 +21,7 @@ const buttonStyle = {
 export const InlineStyle = () => {
   return (
     <div style={containerStyle}>
-      <p style={titleStyle}>- Inline Style -</p>
+      <p style={titleStyle}>-  Inline Style  -</p>
       <button style={buttonStyle}>FIGHT!!!</button>
     </div>
   );
